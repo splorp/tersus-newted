@@ -5,22 +5,24 @@
 
 
 body {
-    font-family: 'Lucida Grande', Helvetica, Arial, serif;
-	color: #333;
-	line-height: 1.4;
+	color: #666;
+	font-size: 0.9em;
+	line-height: 1.6;
 	margin: 0;
 	padding: 2em;
+    font-family: 'Lucida Grande', Helvetica, Arial, serif;
 }
 
-a, a:visited {
+a,
+a:visited {
 	background: transparent;
-	color: #960;
-	text-decoration: none;
+	color: #333;
 	}
 
-a:hover {
-	color: #333;
-	background: #DDD;
+a:hover,
+a:visited:hover {
+	color: #090;
+	text-decoration: none;
 	}
 
 blockquote {
@@ -56,13 +58,14 @@ a[href*="replytocom="],
 a[href*="replytocom="]:visited,
 input[type="reset"],
 input[type="submit"] {
-	border: none;
 	background: #AAA;
-	color: #FFF;
-	font-size: 0.8em;
-	cursor: pointer;
-	padding: 5px 10px;
 	border-radius: 3px;
+	border: none;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 0.8em;
+	padding: 5px 10px;
+	text-decoration: none;
 	}
 
 .post-edit-link:hover,
@@ -97,18 +100,45 @@ input[type="url"] {
 	display: none;
 	}
 
+h1,
+h2,
+h3 {
+    font-family: 'Gill Sans', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	}
+
+h1 a,
+h2 a,
+h3 a {
+	color: #333;
+    font-family: 'Gill Sans', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	}
+
 header {
 	border-bottom: 1px solid #AAA;
 	margin: 0 0 2em 0;
 	padding: 0 0 2em 0;
 	}
 
-header h1,
+header h1 {
+	background: transparent;
+	font-size: 3.5em;
+	line-height: 1;
+	margin: 0 0 0.25em 0;
+	padding: 0;
+	}
+
+header h1 a,
+header h1 a:visited {
+	color: #6F6;
+	}
+
 article h2,
 #content h2 {
 	background: transparent;
-	font-size: 300%;
-	letter-spacing: -1px;
+	font-size: 200%;
 	line-height: 1;
 	margin: 0 0 0.25em 0;
 	padding: 0;
@@ -260,11 +290,12 @@ footer ul li {
 
 a[rel="next"],
 a[rel="prev"] {
-	color: #960;
-	font-size: 0.8em;
-	cursor: pointer;
-	padding: 5px 10px;
 	border-radius: 3px;
+	color: #960;
+	cursor: pointer;
+	font-size: 0.8em;
+	padding: 5px 10px;
+	text-decoration: none;
 	}
 
 a[rel="next"]:hover,
@@ -273,21 +304,21 @@ a[rel="prev"]:hover {
 	}
 
 a[rel="next"]::after {
-	content: '}';
 	color: #CCC;
+	content: '}';
+	font-size: 2.1em;
+	left: 0.2em;
 	position: relative;
 	top: 0.13em;
-	left: 0.2em;
-	font-size: 2.1em;
 	}
 
 a[rel="prev"]::before {
-	content: '{';
 	color: #CCC;
+	content: '{';
+	font-size: 2.1em;
+	left: -0.2em;
 	position: relative;
 	top: 0.13em;
-	left: -0.2em;
-	font-size: 2.1em;
 	}
 
 a[rel="next"]:hover:after {
