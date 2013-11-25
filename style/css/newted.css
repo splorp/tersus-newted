@@ -8,10 +8,11 @@ body {
 	color: #666;
 	font-size: 0.9em;
 	line-height: 1.6;
-	margin: 0;
+	margin: 0 auto;
 	padding: 2em;
     font-family: 'Lucida Grande', Helvetica, Arial, serif;
-}
+    width: 960px;
+	}
 
 a,
 a:visited {
@@ -101,15 +102,13 @@ input[type="url"] {
 	}
 
 h1,
-h2,
-h3 {
+h2{
     font-family: 'Gill Sans', Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	}
 
 h1 a,
-h2 a,
-h3 a {
+h2 a {
 	color: #333;
     font-family: 'Gill Sans', Helvetica, Arial, sans-serif;
 	font-weight: normal;
@@ -157,8 +156,7 @@ header section {
 #content {
 	float: left;
 	margin: 0;
-	padding: 0 0 1em 0;
-	width: 49%;
+	width: 540px;
 	}
 
 #content > h1 {
@@ -212,7 +210,7 @@ aside {
 	float: right;
 	margin: 0;
 	padding: 0 0 1em 2em;
-	width: 20%;
+	width: 300px;
 	}
 
 aside ul {
