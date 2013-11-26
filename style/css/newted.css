@@ -41,14 +41,6 @@ code {
 	padding: 0.3em 0.5em;
 	}
 
-p.published {
-	color: #AAA;
-	}
-	
-li p.published {
-	margin-bottom: 0.5em;
-	}
-
 .post-edit-link,
 .post-edit-link:visited,
 #comment a[href*="action=logout"],
@@ -102,13 +94,15 @@ input[type="url"] {
 	}
 
 h1,
-h2{
+h2,
+h3 {
     font-family: 'Gill Sans', Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	}
 
 h1 a,
-h2 a {
+h2 a,
+h3 a {
 	color: #333;
     font-family: 'Gill Sans', Helvetica, Arial, sans-serif;
 	font-weight: normal;
@@ -125,13 +119,23 @@ header h1 {
 	background: transparent;
 	font-size: 3.5em;
 	line-height: 1;
-	margin: 0 0 0.25em 0;
+	margin: 0;
 	padding: 0;
 	}
 
 header h1 a,
 header h1 a:visited {
 	color: #6F6;
+	}
+
+header p {
+	font-size: 0.9em;
+	margin: 0;
+	padding: 0;
+	}
+	
+header section {
+	margin-bottom: 2em;
 	}
 
 article h2,
@@ -143,14 +147,11 @@ article h2,
 	padding: 0;
 	}
 
-header p {
+article h2.entry-title + p,
+article h2.entry-title + p a {
 	color: #AAA;
-	margin: 0;
-	padding: 0;
-	}
-	
-header section {
-	margin-bottom: 2em;
+	font-size: 0.9em;
+	margin-bottom: 1.5em;
 	}
 
 #content {
@@ -209,7 +210,6 @@ article .alignright {
 aside {
 	float: right;
 	margin: 0;
-	padding: 0 0 1em 2em;
 	width: 300px;
 	}
 
@@ -239,10 +239,17 @@ aside ul li ul li ul {
 	}
 
 aside h2 {
-	border-bottom: 1px solid #AAA;
-	font-size: 1em;
-	margin: 0 0 0.5em 0;
-	padding: 0 0 0.5em 0;
+	color: #CCC;
+	font-family: 'Lucida Grande', Helvetica, Arial, serif;
+	font-size: 1.0em;
+	font-weight: bold;
+	margin: 0;
+	}
+
+aside#sidebar-1,
+aside#sidebar-2 {
+	border: 1px solid #ccc;
+	padding: 1.0em;
 	}
 
 nav {
@@ -266,6 +273,8 @@ nav ul li {
 footer {
 	border-top: 1px solid #AAA;
 	clear: both;
+	font-size: .7em;
+	line-height: 1.7;
 	padding: 2em 0;
 	}
 	
