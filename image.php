@@ -10,25 +10,24 @@
 <section id="content">
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-<?php if (show_post_link_nav()): ?>
-	<p><?php previous_post_link('%link'); delim_post_link(); next_post_link('%link') ?></p>
+<?php if (show_image_link_nav()): ?>
+	<p><?php previous_image_link(0,'Previous Image'); delim_image_link(); next_image_link(0,'Next Image'); ?></p>
 <?php endif; ?>
 
 	<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 
-		<h2 class="entry-title"><?php if(the_title( '', '', false ) !='') the_title(); else echo 'Untitled';?></h2>
+		<h2 class="entry-title"><?php the_title(); ?></h2>
+		<p>By <span class="vcard author"><cite class="fn"><a class="url" href="<?php the_author_meta('user_url') ?>" title="Visit the author’s site"><?php the_author_meta('display_name'); ?></a></cite></span> in <a href="<?php echo get_permalink($post->post_parent); ?>" title="View the gallery"><?php echo get_the_title($post->post_parent); ?></a> on <span class="published" title="<?php the_time('c') ?>"><?php the_date() ?></span></p>
 
-		<p>By <span class="vcard author"><cite class="fn"><a class="url" href="<?php the_author_meta('user_url') ?>" title="Visit the author’s site"><?php the_author_meta('display_name'); ?></a></cite></span> on <span class="published" title="<?php the_time('c') ?>"><?php the_date() ?></span></p>
+		<p><a href="<?php echo wp_get_attachment_url($post->ID); ?>"><?php echo wp_get_attachment_image( $post->ID, 'medium' ); ?></a></p>
+		<?php
+			// Display the caption
+			if ( !empty($post->post_excerpt) ) the_excerpt();
+			// Display the description
+			the_content();
+		?>
 
-		<?php the_content(); ?>
-		<?php wp_link_pages(array('before' => '<p>Pages: ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
-
-		<?php if (has_tag()) echo '<p>Tags:</p>'; the_tags('<ul><li>','</li><li>','</li></ul>'); ?>
-
-		<p>Categories:</p>
-		<ul>
-			<li><?php the_category('</li><li>') ?></li>
-		</ul>
+		<?php the_taxonomies(); ?>
 
 		<?php if ( comments_open() && pings_open() ) { ?>
 		<p><a href="#comment" title="Contribute to the discussion">Leave a comment</a> or <a href="<?php trackback_url(); ?>" title="Send a notification when you link to this page">send a trackback</a> from your own site.</p>
@@ -46,14 +45,14 @@
 
 	</article>
 
-<?php if (show_post_link_nav()): ?>
-	<p><?php previous_post_link('%link'); delim_post_link(); next_post_link('%link') ?></p>
+<?php if (show_image_link_nav()): ?>
+	<p><?php previous_image_link(0,'Previous Image'); delim_image_link(); next_image_link(0,'Next Image'); ?></p>
 <?php endif; ?>
 
 <?php comments_template(); ?>
 
 <?php endwhile; else: ?>
-	<p>Sorry, no posts matched your criteria.</p>
+	<p>Sorry, no attachments matched your criteria.</p>
 <?php endif; ?>
 
 </section>
