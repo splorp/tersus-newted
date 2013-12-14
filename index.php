@@ -16,7 +16,7 @@
 		
 			<?php if(!has_post_format('aside') && !has_post_format('image')) { ?>
 				<h2 class="entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent link to &#8220;<?php the_title_attribute(); ?>&#8221;"><?php the_title(); ?></a></h2>
-				<p>By <span class="vcard author"><cite class="fn"><a class="url" href="<?php the_author_meta('user_url') ?>" title="Visit the author&#8217;s site"><?php the_author_meta('display_name'); ?></a></cite> on <span class="published" title="<?php the_time('c') ?>"><?php the_date() ?></span></p>
+				<p>By <span class="vcard author"><cite class="fn"><a class="url" href="<?php the_author_meta('user_url') ?>" title="Visit the author&#8217;s site"><?php the_author_meta('display_name'); ?></a></cite> on <span class="published" title="<?php the_time('c') ?>"><?php the_time(get_option('date_format')); ?></span></p>
 
 			<?php }
 				the_content();
