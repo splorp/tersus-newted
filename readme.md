@@ -29,7 +29,7 @@ Keep track of Tersus development on [Twitter](http://twitter.com/tersustheme).
 
 ## Requirements
 
-* WordPress 3.0 or later
+* WordPress 3.4 or later
 * [Tersus](http://tersustheme.com/) parent theme
 
 
@@ -48,4 +48,4 @@ See the main [Tersus](https://github.com/splorp/tersus/) project for related thi
 
 ### 0.1.0
 
-+ Initial release based on the current [Newted Community](http://newted.org/) site
++ Initial release based on the existing [Newted Community](http://newted.org/) site
