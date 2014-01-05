@@ -206,6 +206,7 @@ article h2.entry-title + p a {
 
 article img {
 	display: block;
+	height: auto;
 	margin: 2em 0;
 	max-width: 100%;
 	}
