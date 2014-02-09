@@ -258,8 +258,8 @@ aside h2 {
 	margin: 0;
 	}
 
-aside#sidebar-1,
-aside#sidebar-2 {
+#sidebar-1,
+#sidebar-2 {
 	border: 1px solid #ccc;
 	padding: 1.0em;
 	}
@@ -409,7 +409,7 @@ a[rel="prev"]:hover:before {
 	List Format Styles
 */
 
-span.summary {
+.summary {
 	display: none;
 	}
 
