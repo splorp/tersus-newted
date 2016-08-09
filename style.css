@@ -9,7 +9,7 @@ Template: tersus
 Template Version: 0.3.0
 License: GNU General Public License
 License URI: https://raw.github.com/splorp/tersus/master/license.txt
-Tags: black, white, green, light, two-columns, right-sidebar, fixed-layout, responsive-layout, post-formats, theme-options, microformats
+Tags: two-columns, right-sidebar, post-formats, theme-options, microformats, threaded-comments
 */
 
 @import "../tersus/style.css";
