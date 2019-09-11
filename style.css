@@ -13,4 +13,4 @@ Tags: two-columns, right-sidebar, post-formats, theme-options, microformats, thr
 */
 
 @import "../tersus/style.css";
-@import "style/css/newted.css";
+@import "../newted/style/css/newted.css";
