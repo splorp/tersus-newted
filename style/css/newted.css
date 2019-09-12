@@ -86,7 +86,7 @@ input[type="submit"]:hover {
 	
 input[type="reset"]:active,
 input[type="submit"]:active {
-	background: #960;
+	background: #090;
 	}
 
 textarea,
@@ -138,6 +138,11 @@ header h1 {
 
 header h1 a,
 header h1 a:visited {
+	color: #090;
+	}
+
+header h1 a:hover,
+header h1 a:visited:hover {
 	color: #6F6;
 	}
 
@@ -174,7 +179,7 @@ article h2.entry-title + p a {
 	}
 
 #content > h1 {
-	color: #960;
+	color: #090;
 	font-weight: normal;
 	font-size: 2em;
 	line-height: 1;
