@@ -122,16 +122,16 @@ h3 a {
 	text-decoration: none;
 	}
 
+h3 {
+	margin-top: 1.5em;
+	}
+
 header {
-	border-bottom: 1px solid #AAA;
-	margin: 0 0 2em 0;
-	padding: 0 0 2em 0;
+	padding: 0 0 2.0em 0;
 	}
 
 header h1 {
-	background: transparent;
 	font-size: 3.5em;
-	line-height: 1;
 	margin: 0;
 	padding: 0;
 	}
@@ -153,16 +153,7 @@ header p {
 	}
 	
 header section {
-	margin-bottom: 2em;
-	}
-
-article h2,
-#content h2 {
-	background: transparent;
-	font-size: 200%;
-	line-height: 1;
-	margin: 0 0 0.25em 0;
-	padding: 0;
+	margin-bottom: 2.0em;
 	}
 
 article h2.entry-title + p,
@@ -177,27 +168,6 @@ article h2.entry-title + p a {
 	margin: 0;
 	width: 540px;
 	}
-
-#content > h1 {
-	color: #090;
-	font-weight: normal;
-	font-size: 2em;
-	line-height: 1;
-	margin: 0 0 1%;
-	}
-
-#content > h1 + p {
-	color: #AAA;
-	font: normal 1em sans-serif;
-	font-style: italic;
-	margin: 0 0 2%;
-	}
-
-#content > h2 {
-    border-bottom: 1px solid #AAA;
-    padding: 0 0 0.75em 0;
-    margin: 0 0 0.5em 0;
-    }
 
 #content article {
 	border-bottom: 1px solid #AAA;
@@ -263,20 +233,16 @@ aside h2 {
 	margin: 0;
 	}
 
-#sidebar-1,
-#sidebar-2 {
-	border: 1px solid #ccc;
-	padding: 1.0em;
-	}
-
 nav {
 	border-bottom: 1px solid #AAA;
-	margin: -1em 0 2em 0;
+    border-top: 1px solid #AAA;
+    margin: 2.0em 0 2.0em 0;
+    padding: 1.0em 0 1.0em 0;
 	}
 
 nav ul {
 	list-style: none;
-	margin: 0 0 0.5em 0;
+	margin: 0;
 	padding: 0;
 	text-indent: 0;
 	}
@@ -492,6 +458,10 @@ a[rel="prev"]:hover:before {
 
 	footer {
 		padding: 1.0em 0;
+		}
+
+	h1 {
+		font-size: 2.0em;
 		}
 
 	h2 {
