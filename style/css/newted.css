@@ -303,10 +303,12 @@ a[rel="prev"]::before {
 	font-size: 1.2em;
 	}
 
-a[rel="next"]:hover:after {
+a[rel="prev"] {
+	float: left;
 	}
 
-a[rel="prev"]:hover:before {
+a[rel="next"] {
+	float: right;
 	}
 
 
