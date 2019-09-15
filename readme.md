@@ -44,7 +44,13 @@ This child theme is absolutely free and conveniently licensed under GPL. You may
 
 See the main [Tersus](https://github.com/splorp/tersus/) project for related third party [licensing information](https://github.com/splorp/tersus/#licensing).
 
+
 ## Version History
+
+### 0.1.1
+
++ Bumped [Tersus](https://github.com/splorp/tersus/) template version to 0.4.0
+
 
 ### 0.1.0
 
