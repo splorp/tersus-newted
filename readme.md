@@ -1,14 +1,14 @@
 
 # Tersus: Newted
 
-An achingly simple child theme for [Tersus](https://tersustheme.com/).
+An achingly simple child theme for [Tersus](https://github.com/splorp/tersus/).
 
 
 ## About
 
 Tersus is an exercise in publishing template minimalism.
 
-By removing the majority of the presentational markup and other cruft from the [Tersus](http://tersustheme.com/) parent theme, we’ve opened the door for child themes to pick up the aesthetic slack. There are currently three child themes being developed for Tersus.
+By removing the majority of the presentational markup and other cruft from the [Tersus](https://github.com/splorp/tersus/) parent theme, we’ve opened the door for child themes to pick up the aesthetic slack. There are currently three child themes being developed for Tersus.
 
 + [Newted](https://github.com/splorp/newted/) by [Grant Hutchinson](https://splorp.me/)
 + [Splorp](https://github.com/splorp/splorp/) by [Grant Hutchinson](https://splorp.me/)
