@@ -1,5 +1,5 @@
 
-# Newted for Tersus
+# Tersus: Newted
 
 An achingly simple child theme for [Tersus](https://tersustheme.com/).
 
@@ -23,14 +23,16 @@ Keep track of Tersus development on [Twitter](https://twitter.com/tersustheme).
 + CSS that has been reset and built from the ground up
 + Non-semantic, presentational markup has been dispatched
 + Built-in theme options for navigation, sidebar, footer, and announcement text
++ Widget-enabled sidebar area
 + Responsive, adaptive layout for small screens
 + Clean, valid, and awesome
++ WordPress [Theme Review Process](https://make.wordpress.org/themes/handbook/review/) compliance
 
 
 ## Requirements
 
-* WordPress 4.1 or later
-* [Tersus](https://tersustheme.com/) parent theme
+* WordPress 5.0 or later
+* [Tersus](https://github.com/splorp/tersus/) parent theme
 
 
 ## Credits
@@ -49,10 +51,24 @@ See the main [Tersus](https://github.com/splorp/tersus/) project for related thi
 
 ## Version History
 
+### 0.1.2
+
++ Theme now requires WordPress 5.0 or later
++ Bumped [Tersus](https://github.com/splorp/tersus/) template version to 0.4.1
++ Updated theme name for consistency with the theme text domain and function namespace
++ Added `register_nav_menus` function to support the theme text domain
++ Added `automatic-feed-links` theme support feature
++ Added `post-thumbnails` theme support feature
++ Added `title-tag` theme support feature
++ Removed deprecated `handheld` and `max-device-width` from media queries 
++ Embiggened theme screenshot to support HiDPI displays
++ Embiggened site icon artwork
++ Removed legacy icon and artwork files
++ Updated license to [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)
+
 ### 0.1.1
 
 + Bumped [Tersus](https://github.com/splorp/tersus/) template version to 0.4.0
-
 
 ### 0.1.0
 
