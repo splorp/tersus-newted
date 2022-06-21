@@ -10,8 +10,8 @@ body {
 	line-height: 1.6;
 	margin: 0 auto;
 	padding: 2.0em;
-    font-family: 'Lucida Grande', Helvetica, Arial, serif;
-    width: 960px;
+	font-family: 'Lucida Grande', Helvetica, Arial, serif;
+	width: 960px;
 	}
 
 a,
@@ -109,7 +109,7 @@ input[type="url"] {
 h1,
 h2,
 h3 {
-    font-family: 'Gill Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Gill Sans', Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	}
 
@@ -117,7 +117,7 @@ h1 a,
 h2 a,
 h3 a {
 	color: #333;
-    font-family: 'Gill Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Gill Sans', Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	text-decoration: none;
 	}
@@ -235,9 +235,9 @@ aside h2 {
 
 nav {
 	border-bottom: 1px solid #AAA;
-    border-top: 1px solid #AAA;
-    margin: 2.0em 0 2.0em 0;
-    padding: 1.0em 0 1.0em 0;
+	border-top: 1px solid #AAA;
+	margin: 2.0em 0 2.0em 0;
+	padding: 1.0em 0 1.0em 0;
 	}
 
 nav ul {
