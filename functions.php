@@ -20,11 +20,11 @@ if ( ! function_exists('theme_support_features') ) {
 	function theme_support_features() {
 
 		// Add theme support for automatic feed links
-		// http://codex.wordpress.org/Automatic_Feed_Links
+		// https://codex.wordpress.org/Automatic_Feed_Links
 		add_theme_support( 'automatic-feed-links' );
 
 		// Add theme support for featured images
-		// http://codex.wordpress.org/Post_Thumbnails
+		// https://codex.wordpress.org/Post_Thumbnails
 		add_theme_support( 'post-thumbnails' );
 
 		// Add theme support for document title tag
@@ -36,7 +36,7 @@ if ( ! function_exists('theme_support_features') ) {
 }
 
 // Page menu support
-// http://codex.wordpress.org/Function_Reference/register_nav_menus
+// https://developer.wordpress.org/reference/functions/register_nav_menus/
 
 if ( ! function_exists('register_my_menus') ) {
 	function register_my_menus() {
