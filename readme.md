@@ -51,6 +51,12 @@ See the main [Tersus](https://github.com/splorp/tersus/) project for related thi
 
 ## Version History
 
+### 0.1.3
+
++ Added `register_sidebar()` function for better dynamic sidebar support
++ Fixed missing bracket in post navigation CSS
++ Theme now passes the basic [Theme Review Process](https://make.wordpress.org/themes/handbook/review/) tests
+
 ### 0.1.2
 
 + Theme now requires WordPress 5.0 or later
