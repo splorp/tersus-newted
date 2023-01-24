@@ -68,9 +68,11 @@ input[type="submit"] {
 	border: none;
 	color: #FFF;
 	cursor: pointer;
-	font-size: 0.5em;
+	font-family: 'Lucida Grande', Helvetica, Arial, serif;
+	font-size: 0.525em;
 	padding: 0.6em 1.0em;
 	text-decoration: none;
+	vertical-align: middle;
 	}
 
 .post-edit-link:hover,
