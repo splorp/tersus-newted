@@ -54,6 +54,7 @@ See the main [Tersus](https://github.com/splorp/tersus/) project for related thi
 ### 0.1.3
 
 + Added `register_sidebar()` function for better dynamic sidebar support
++ Fixed alignment of ‘cancel reply’ button
 + Fixed missing bracket in post navigation CSS
 + Theme now passes the basic [Theme Review Process](https://make.wordpress.org/themes/handbook/review/) tests
 
