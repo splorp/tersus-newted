@@ -76,11 +76,11 @@ if ( ! function_exists( 'tersus_newted_delim' ) ) {
 	function tersus_newted_delim($d) {
 		return '&nbsp;';
 		}
-	
+
 	add_filter( 'post_link_delim', 'tersus_newted_delim' );
 	add_filter( 'posts_link_delim', 'tersus_newted_delim' );
 	add_filter( 'image_link_delim', 'tersus_newted_delim' );
 	add_filter( 'comment_link_delim', 'tersus_newted_delim' );
-	
+
 	}
 ?>
