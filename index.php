@@ -22,7 +22,7 @@
 				the_content();
 				if(!has_post_format('aside') && !has_post_format('image')) {
 			?>
-				
+
 				<?php if (has_tag()) { ?>
 					<h6>Tags</h6>
 					<p><?php the_tags( '', ', ', '' ) ?></p>
@@ -38,7 +38,7 @@
 	<?php endwhile; ?>
 
 	<?php if (show_posts_link_nav()): ?>
-		<p><?php next_posts_link('Older'); delim_posts_link(); previous_posts_link('Newer') ?></p>
+		<nav><?php next_posts_link('Older Posts'); delim_posts_link(); previous_posts_link('Newer Posts') ?></nav>
 	<?php endif; ?>
 
 <?php else : ?>
