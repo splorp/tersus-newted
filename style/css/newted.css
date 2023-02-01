@@ -319,13 +319,13 @@ a[rel="prev"]:hover {
 	}
 
 a[rel="next"]::after {
-	content: ' »';
-	font-size: 1.2em;
+	content: ' ▶︎';
+	font-size: 0.5em;
 	}
 
 a[rel="prev"]::before {
-	content: '« ';
-	font-size: 1.2em;
+	content: '◀︎ ';
+	font-size: 0.5em;
 	}
 
 a[rel="prev"] {
