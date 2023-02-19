@@ -51,10 +51,17 @@ See the main [Tersus](https://github.com/splorp/tersus/) project for related thi
 
 ## Version History
 
+### 0.1.4
+
++ Bumped [Tersus](https://github.com/splorp/tersus/) template version to 0.4.2
++ Adjusted post and comment page navigation appearance and positioning
++ Fixed alignment of gallery thumbnails and captions
++ Fixed missing `nav` wrapper in `index.php`
+
 ### 0.1.3
 
 + Added `register_sidebar()` function for better dynamic sidebar support
-+ Fixed alignment of ‘cancel reply’ button
++ Fixed alignment of “Cancel Reply” button
 + Fixed missing bracket in post navigation CSS
 + Theme now passes the basic [Theme Review Process](https://make.wordpress.org/themes/handbook/review/) tests
 
