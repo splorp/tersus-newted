@@ -55,8 +55,12 @@ See the main [Tersus](https://github.com/splorp/tersus/) project for related thi
 
 + Bumped [Tersus](https://github.com/splorp/tersus/) template version to 0.4.2
 + Adjusted post and comment page navigation appearance and positioning
++ Added missing `meta` class to `image.php` and `single.php` templates
 + Fixed alignment of gallery thumbnails and captions
 + Fixed missing `nav` wrapper in `index.php`
++ Removed excess margins from non-navigation lists
++ Fixed styling of initial post paragraphs
++ Fixed the line height of post titles that wrap to a second line
 
 ### 0.1.3
 
