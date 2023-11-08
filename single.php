@@ -14,7 +14,7 @@
 
 		<h2 class="entry-title"><?php if(the_title( '', '', false ) !='') the_title(); else echo 'Untitled';?></h2>
 
-		<p>By <span class="vcard author"><cite class="fn"><a class="url" href="<?php the_author_meta('user_url') ?>" title="Visit the author’s site"><?php the_author_meta('display_name'); ?></a></cite></span> on <span class="published" title="<?php the_time('c') ?>"><?php the_time(get_option('date_format')); ?></span></p>
+		<p class="meta">By <span class="vcard author"><cite class="fn"><a class="url" href="<?php the_author_meta('user_url') ?>" title="Visit the author’s site"><?php the_author_meta('display_name'); ?></a></cite></span> on <span class="published" title="<?php the_time('c') ?>"><?php the_time(get_option('date_format')); ?></span></p>
 
 		<?php the_content(); ?>
 		<?php wp_link_pages(array('before' => '<p>Pages: ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
